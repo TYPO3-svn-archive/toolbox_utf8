@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;tools_txutf8convertM1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="mlang_tabs_tab">UTF8 convert</label>
+			<label index="mlang_labels_tabdescr">tabdecr</label>
+			<label index="mlang_labels_tablabel">tablabel</label>
+			<label index="title">UTF-8 convert</label>
+			<label index="choose_function">Function</label>
+			<label index="choose_collation">choose collation</label>
+			<label index="verbose">verbose</label>
+			<label index="verbose_details">verbose details</label>
+			<label index="force">force</label>
+		</languageKey>
+	</data>
+</T3locallang>

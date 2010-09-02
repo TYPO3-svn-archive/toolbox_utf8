@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the status reports</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="utf8status_report_title">UTF8 Status Report</label>
+			<label index="utf8status_report_description">Get a status report about your site's UTF8 configuration.</label>
+			<label index="utf8status_report_explanation">Here you can find a short overview of your site's UTF8 parameters as well as any problems detected with your installation.</label>
+			<label index="utf8status_ok">OK</label>
+			<label index="utf8status_insecure">Insecure</label>
+			<label index="utf8status_disabled">Disabled</label>
+			<label index="utf8status_enabled">Enabled</label>
+			<label index="utf8status_empty">Empty</label>
+			<label index="utf8status_connectionFailed">Connection Failed</label>
+			<label index="utf8status_updateComplete">Update Complete</label>
+			<label index="utf8status_updateIncomplete">Update Incomplete</label>
+			<label index="utf8status_database_vars">DB Server variables</label>
+			<label index="utf8status_runtime_vars">DB runtime variables</label>
+			<label index="utf8status_collation_vars">UTF8 collations</label>
+			<label index="toolboxutf8_table_collations">TYPO3 tables and collations</label>
+			<label index="utf8status_typo3_vars">TYPO3 variables</label>
+			<label index="utf8status_webserver_vars">Webserver configuration</label>
+			<label index="utf8status_system">System</label>
+			<label index="utf8status_security">Security</label>
+			<label index="utf8status_configuration">Configuration</label>
+			<label index="utf8status_typo3utf8">TYPO3 with utf8</label>
+ 			<label index="utf8status_referenceIndex">Reference Index</label>
+ 			<label index="utf8status_memcachedConfiguration">Memcached Configuration</label>
+ 			<label index="utf8status_adminUserAccount">Admin User Account</label>
+ 			<label index="utf8status_encryptionKey">Encryption Key</label>
+ 			<label index="utf8status_fileDenyPattern">File Deny Pattern</label>
+ 			<label index="utf8status_htaccessUploadProtection">.htaccess Upload Protection</label>
+ 			<label index="utf8status_installToolPassword">Install Tool Password</label>
+ 			<label index="utf8status_installTool">Install Tool</label>
+ 			<label index="utf8status_phpVersion">PHP Version</label>
+ 			<label index="utf8status_phpTooOld">Your PHP installation is too old.</label>
+ 			<label index="utf8status_phpMemory">PHP Memory Limit</label>
+ 			<label index="utf8status_phpMemoryRecommendation">Depending on your configuration, TYPO3 can run with a %1$s PHP memory limit. However, a %2$s PHP memory limit or above is recommended, especially if your site uses additional extensions.</label>
+ 			<label index="utf8status_phpMemoryRequirement">Depending on your configuration, TYPO3 can run with a %1$s PHP memory limit. However, a %2$s PHP memory limit or above is required especially if your site uses additional extensions.</label>
+ 			<label index="utf8status_phpMemoryEditLimit">Increase the memory limit by editing the memory_limit parameter in the file %s and then restart your web server (or contact your system administrator or hosting provider for assistance).</label>
+ 			<label index="utf8status_phpMemoryContactAdmin">Contact your system administrator or hosting provider for assistance with increasing your PHP memory limit.</label>
+ 			<label index="utf8status_phpRegisterGlobals">PHP Register Globals</label>
+ 			<label index="utf8status_phpRegisterGlobalsEnabled">%s is enabled. TYPO3 requires this configuration directive to be disabled.</label>
+ 			<label index="utf8status_phpRegisterGlobalsSecurity">Your site may not be secure when %s is enabled.</label>
+ 			<label index="utf8status_phpRegisterGlobalsHowToChange">how to change configuration settings</label>
+ 			<label index="utf8status_phpRegisterGlobalsPHPManual">The PHP manual has instructions for %s.</label>
+ 			<label index="utf8status_webServer">Web Server</label>
+		</languageKey>
+	</data>
+</T3locallang>

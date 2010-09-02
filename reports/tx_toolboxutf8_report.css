@@ -1,0 +1,34 @@
+/* Services report styles */ /* $Id: tx_toolboxutf8_report.css 7269 2010-06-03 13:12:39Z sebastian.fuchs $ */
+.indentlevel-1 {
+	margin-left: 10px;
+}
+
+.indentlevel-2 {
+	margin-left: 10px;
+}
+
+.indentlevel-3 {
+	margin-left: 10px;
+}
+
+.indentlevel-4 {
+	margin-left: 10px;
+}
+
+#ext-reports-mod-index-php h3.section-header {
+	clear: left;
+	cursor: pointer;
+	height: 20px;
+	margin: 15px 0;
+	padding: 2px 0 0 20px;
+}
+
+#ext-reports-mod-index-php h3.collapsed {
+	background-image: url(../../../../typo3/gfx/arrowright.png);
+	background-repeat: no-repeat;
+}
+
+#ext-reports-mod-index-php h3.expanded {
+	background-image: url(../../../../typo3/gfx/arrowdown.png);
+	background-repeat: no-repeat;
+}

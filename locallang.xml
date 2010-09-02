@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the status reports</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="utf8status_report_title">UTF8 Status Report</label>
+			<label index="utf8status_report_description">Get a status report about your site's UTF8 configuration.</label>
+			<label index="utf8status_report_explanation">Here you can find a short overview of your site's UTF8 parameters as well as any problems detected with your installation.</label>
+			<label index="utf8status_ok">OK</label>
+			<label index="utf8status_insecure">Insecure</label>
+			<label index="utf8status_disabled">Disabled</label>
+			<label index="utf8status_enabled">Enabled</label>
+			<label index="utf8status_empty">Empty</label>
+			<label index="utf8status_database_vars">DB Server variables</label>
+			<label index="utf8status_table_vars">DB tables</label>
+			<label index="utf8status_runtime_vars">DB runtime variables</label>
+			<label index="utf8status_collation_vars">UTF8 collations</label>
+			<label index="utf8status_charset_vars">Available charsets</label>
+			<label index="toolboxutf8_table_typo3">TYPO3 tables</label>
+			<label index="toolboxutf8_table_collations">Collations</label>
+			<label index="toolboxutf8_table_charsets">Charsets</label>
+			<label index="utf8status_typo3_vars">TYPO3 variables</label>
+			<label index="utf8status_typo3.msg.forcecharsetutf8_success">You have TYPO3 forced to use utf8, but did not set setDBinit to use an utf8 connection. You should check that the following "DB server variable/DB runtime variables" are set to utf8: character_set_client,character_set_connection, character_set_results </label>
+			<label index="utf8status_typo3.msg.setdbinit_success">You have  set setDBinit to use utf8 connections, but did not forced TYPO3 to use utf8.</label>
+			<label index="utf8status_typo3.msg.notutf8set">You have not configurted you TYPO3 system to use "utf8". To do so, go to the installtion module and set the variable "forceCharset" to "utf8".</label>
+			<label index="utf8status_typo3utf8">TYPO3 with utf8</label>
+			<label index="utf8status_webserver_vars">Webserver configuration</label>
+			<label index="utf8status_php_vars">PHP variables and function calls</label>
+ 			<label index="utf8status_mysqlVariablesError">Some variables have undesired charsets set. Make sure this is no problem for you.</label>
+			<label index="utf8status_mysqlVariablesWarning">Some variables have undesired charsets set. But it does not seem to be a problem for this installation.</label>
+ 			<label index="toolboxutf8_tablesCollationsWarning">Some tables have undesired collation charsets. Make sure this is no problem for you. </label>
+			<label index="toolboxutf8_tablesCollationsRecommendation">You can run the toolboxutf8 _CLI-script using the "alter" option to change this.</label>
+			<label index="converttask.name">UTF8 convert</label>
+			<label index="converttask.description">UTF8 Convert Task</label>
+			<label index="task.label.params">UTF8 convert command parameters</label>
+			<label index="task.msg.params">Please at a cUTF8 convert command parameters</label>
+			<label index="task.label.cmd_type">Command types</label>
+			<label index="task.msg.cmd_type">Chose a command type</label>
+			
+		</languageKey>
+	</data>
+</T3locallang>

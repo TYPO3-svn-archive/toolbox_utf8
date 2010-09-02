@@ -1,0 +1,2 @@
+# cat=basic/enable; type=string; label=Path to you php binary executable 
+php_bin_path = php 
